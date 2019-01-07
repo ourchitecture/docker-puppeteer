@@ -22,8 +22,6 @@ RUN apt-get update \
     && apt-get update \
     && apt-get install -y google-chrome-unstable fonts-ipafont-gothic fonts-wqy-zenhei fonts-thai-tlwg fonts-kacst ttf-freefont \
       --no-install-recommends \
-    && rm -rf /var/lib/apt/lists/* \
-    && rm -rf /src/*.deb \
     # print version for reference
     && node --version \
     && npm --version \
