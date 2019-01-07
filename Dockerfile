@@ -2,7 +2,7 @@ FROM node:10
 
 LABEL organization="Ourchitecture"
 LABEL license="MIT"
-LABEL url="https://github.com/ourchitecture/docker-ibmcloud-cli"
+LABEL url="https://github.com/ourchitecture/docker-puppeteer"
 
 ARG PUPPETEER_VERSION="1.10.0"
 
